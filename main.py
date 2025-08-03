@@ -1,5 +1,6 @@
 
 import requests
+import streamlit as st
 
 city_name = input('please enter city name you would like to know about the local weather: ')
 city = city_name.replace(' ', '%20')
@@ -10,3 +11,5 @@ print(f'The weather in {city_name} is:', data['weather'][0]['description'])
 print(f'The temperature in {city_name} is:', data['main']['temp'], 'Co')
 print(f'The humidity in {city_name} is:', data['main']['humidity'], 'Co')
 print(information.text)
+
+
