@@ -1,6 +1,5 @@
 
 import requests
-import streamlit as st
 
 city_name = input('please enter city name you would like to know about the local weather: ')
 city = city_name.replace(' ', '%20')
