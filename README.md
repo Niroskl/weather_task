@@ -29,10 +29,17 @@
 ## code on streamlit:
 ### For using the streamlit platform I checked the documentation files and adapted the code to the streamlit coding platform
 #### to run the code from PyCharm on streamlit, write in the terminal tab: "streamlit run weather_app_nir.py"
-### it is important to note I did use ChatGPT to adapt the code to streamlit, and I change/edit the code because an error was raised. ChatGPT instruct me to first verify that the OpenWeather website return 200 and only then to continue with the weather request
+### it is important to note I did use ChatGPT to adapt the code to streamlit, and I change/edit the code because an error was raised running the same strategy as using on PyCharm. ChatGPT instruct me to first verify that the OpenWeather website return 200 and only then to continue with the weather request
 ### therefor I added an "if" condition
-### If answer is wrong, there is no need for a loop because the user can delete the previous city name he wrote and write a new name
+### note: If the city name request is wrong, there is no need for a loop because the user can delete the previous city name he wrote and write a new name
 
+
+## files include this project:
+### this file, readme
+### gitignore
+### poetry.lock and pyproject.toml
+
+# overall, it was very fun doing this project!
 
 
 
