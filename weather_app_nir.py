@@ -11,7 +11,6 @@ if city_name:
     information = requests.get(API)
     data = information.json()
 
-
     if information.status_code == 200:
         st.write(f'The current weather in {city_name} is:', data['weather'][0]['description'])
         st.write(f'The temperature in {city_name} is:', data['main']['temp'], '°C')
@@ -19,3 +18,4 @@ if city_name:
         st.write(information.text)
     else:
         st.error("city name is invalid, please try again")
+

@@ -27,11 +27,9 @@
 ###   5. All the relevant data (temperature, humidity, and weather description) will be printed, along with the whole unedited crude json data obtained for the OpenWeather website (last coding line) - this was not requested in the project scope
 
 ## code on streamlit:
-### For using the streamlit platform I reviewed the documentation files and adapted the code to the streamlit coding platform
-#### to run the code from PyCharm on streamlit, write in the terminal tab: "streamlit run weather_app_nir.py"
-### Important to note: since an error occurred when I run the same code strategy from PyCharm in Streamlit, I used ChatGPT to help adapt the code to streamlit and edited the code. ChatGPT instructed me to first verify that the OpenWeather website return a status code 200 and only then to continue with the weather request
-### therefor I added an "if" condition to check for valid response
-### note: If the city name request is wrong, there is no need for a loop because the user can delete the previous city name he wrote and write a new name
+### to run the code from PyCharm on streamlit, write in the terminal tab: "streamlit run weather_app_nir.py"
+### For using the streamlit platform I reviewed the documentation files and adapted the code to the streamlit coding platform with the help of ChatGPT
+### note: for the streamlit code, If the city name requested is wrong, there is no need for a "while loop" because the user can delete the previous city name he wrote and write a new name
 
 
 ## files included in this project:
