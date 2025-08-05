@@ -15,7 +15,7 @@ if city_name:
         st.write(f'The current weather in {city_name} is:', data['weather'][0]['description'])
         st.write(f'The temperature in {city_name} is:', data['main']['temp'], '°C')
         st.write(f'The humidity in {city_name} is:', data['main']['humidity'], '%')
-        st.write(information.text)
+
     else:
         st.error("city name is invalid, please try again")
 
