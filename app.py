@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-from geopy import Nominatim
+import geopy
 import folium
 from streamlit_folium import st_folium
 
