@@ -1,9 +1,9 @@
 import requests
 import streamlit as st
 
-st.title("Weather App by Niro")
-
-city_name = st.text_input('please enter city name you would like to know about the local weather: ')
+st.title("☁️Weather 🌈 App☁️")
+st.markdown('Hello,  \nYou are in the right place for WEATHER check')
+city_name = st.text_input('Please enter city name you would like to know about the local weather: ')
 
 if city_name:
     city = city_name.replace(' ', '%20')
@@ -19,3 +19,4 @@ if city_name:
     else:
         st.error("city name is invalid, please try again")
 
+def enter_map(city)

@@ -12,10 +12,13 @@ while True:
     data = information.json()
 
     if information.status_code == 200:
-        print(f'The current weather in {city_name} is:', data['weather'][0]['description'])
+        print(f'The current weather in {city_name.capitalize()} is:', data['weather'][0]['description'])
         print(f'The temperature in {city_name} is:', data['main']['temp'], '°C')
         print(f'The humidity in {city_name} is:', data['main']['humidity'], '%')
+        print(f'The wind in {city_name} is:', data['wind']['speed'], 'm/s')
+        print(f'The local pressure in {city_name} is:', data['main']['pressure'], 'hPa')
 
+        print(information.text)
         break
     else:
         print("city name is invalid, please try again")
