@@ -1,8 +1,8 @@
 import requests
 import streamlit as st
+import geopy
 from geopy.geocoders import Nominatim
 import folium
-import geopy
 from streamlit_folium import st_folium
 
 st.title("☁️Weather 🌈 App☁️")
